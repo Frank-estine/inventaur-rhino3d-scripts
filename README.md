@@ -9,6 +9,57 @@ This repository contains **four Python scripts**. The current workflow is built 
 
 ---
 
+## Direct GitHub links
+
+These absolute URLs are suitable for forum posts, project pages and external documentation. The folder URL opens the component; the README URL opens its documentation; the raw URL serves the Markdown source.
+
+- Main repository: https://github.com/Frank-estine/inventaur-rhino3d-scripts
+- Main README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/README.md
+- Raw main README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/README.md
+- Rhino standards package: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards
+- Rhino standards package README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/README.md
+
+### AutoLayer
+- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/AutoLayer
+- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/README.md
+- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/AutoLayer/README.md
+- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py
+- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py
+
+### Installer
+- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Installer
+- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/README.md
+- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/README.md
+- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
+- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
+
+### HatchLibrary
+- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/HatchLibrary
+- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/README.md
+- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/README.md
+- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
+- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
+
+### Legacy
+- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Legacy
+- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/README.md
+- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Legacy/README.md
+- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py
+- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py
+
+### Template
+- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Template
+- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Template/README.md
+- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Template/README.md
+- Generated template: created locally by the Installer script; no prebuilt 3DM is hosted in this repository.
+
+### Other repository reference files
+- Licence: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/LICENSE.md
+- Third-party notices: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/THIRD_PARTY_NOTICES.md
+- Verification summary: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/VERIFICATION.md
+- Manifest: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/manifest.json
+
+---
 ## At a glance
 
 | File / component | What it does | When to use it |

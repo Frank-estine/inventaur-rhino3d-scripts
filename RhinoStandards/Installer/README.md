@@ -20,3 +20,16 @@ If the runtime metric template is missing, the installer generates it locally th
 - Existing geometry and ordinary geometry-layer assignments are preserved.
 - User-selected custom dimension styles are preserved.
 - No geometry is created in the default template.
+
+## Direct GitHub links
+
+- Main repository: https://github.com/Frank-estine/inventaur-rhino3d-scripts
+- Main README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/README.md
+- Rhino standards package: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards
+- Installer folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Installer
+- Installer README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/README.md
+- Raw Installer README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/README.md
+- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
+- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
+
+Use the **folder URL** to introduce the component, the **README URL** to reference its documentation, and the **raw README URL** when a forum or external page needs the Markdown source.
