@@ -1,7 +1,7 @@
 # Rhino Standards Installer
 
 Script: Inventaur_RhinoStandards_Install.py
-Package version: 1.3.3
+Package version: 1.3.4
 
 Installs the shared metric architectural layers, annotation/text styles, Rhino native hatch defaults and object-event routing. It also validates or generates the user's local metric template.
 

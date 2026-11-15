@@ -1,7 +1,7 @@
 # Inventaur Rhino3D Scripts
 
-**Inventaur Rhino Standards — version 1.3.3**
-Reusable Rhino 9 drafting standards, startup automation, annotation routing and hatch tooling maintained by Inventaur Inc.
+**Inventaur Rhino Standards — version 1.3.4**
+Rhino 8/9 MCP startup automation and Rhino 9 drafting standards, annotation routing and hatch tooling maintained by Inventaur Inc.
 
 This repository contains **four Python scripts**. The current workflow is built around the AutoLayer startup entrypoint and the standards installer. The hatch exporter is an optional utility. The v1.0 router is retained for historical reference and is not part of the current install path.
 
@@ -64,7 +64,7 @@ These absolute URLs are suitable for forum posts, project pages and external doc
 
 | File / component | What it does | When to use it |
 |---|---|---|
-| [AutoLayer startup script](RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py) | Rhino startup bootstrap. Loads the standards installer and requests the optional RhinoAI MCPStart command. | **Current startup entrypoint.** Configure this to run when Rhino launches. |
+| [AutoLayer startup script](RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py) | Version-aware Rhino startup bootstrap. Rhino 9 loads the standards installer and starts MCP on 10500; Rhino 8 starts MCP only on 10508. | **Current startup entrypoint.** Configure this to run when Rhino launches. |
 | [Standards installer](RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py) | Installs drafting layers, dimension/text styles, hatch definitions and live object-routing handlers; validates or creates the metric template. | The core standards engine. Normally loaded by AutoLayer; can also be run directly for setup or repair. |
 | [Native hatch exporter](RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py) | Exports hatch definitions available in the installed Rhino version to a local PAT file and JSON report. | Run manually when a local PAT export is needed. |
 | [Legacy v1.0 router](RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py) | Historical v1.0 text/annotation layer router. | Reference only. Do not install alongside the current AutoLayer system. |
@@ -182,23 +182,42 @@ The installer reads the saved 3DM back and validates that the definitions persis
 
 ---
 
+## Rhino 8 / Rhino 9 MCP autostart
+
+The AutoLayer entrypoint starts McNeel's RhinoAI MCP server without an interactive port prompt:
+
+| Rhino version | MCP port | Startup behaviour |
+|---|---:|---|
+| Rhino 8 | 10508 | MCP-only path; the Rhino 9 drafting-standards installer is skipped |
+| Rhino 9 | 10500 | Runs the drafting-standards installer, then starts MCP |
+
+The script passes the port as part of the command (_MCPStart 10500 or _MCPStart 10508) and appends a final space to submit the value as Enter. A bare _MCPStart stops at the MCPStart Port prompt and waits for user input. The script checks whether the assigned local TCP port is already open before starting, and logs whether the endpoint is reachable.
+
+**Scope:** Rhino 8 MCP autostart is supported by this entrypoint. The drafting-standards installer and metric-template workflow remain qualified for Rhino 9; the Rhino 8 path intentionally skips that installer.
+
+See [AutoLayer README](RhinoStandards/AutoLayer/README.md) for setup, port assignment and log markers.
+
+**Rhino 8 test result:** the Default-profile startup ran automatically in a fresh test process; the MCPStart command returned True, port 10508 opened, and MCP initialize returned HTTP 200. Rhino 9's existing port 10500 has also passed MCP initialize and tools/list (44 tools). A cold Rhino 9 process restart after this latest script patch remains pending.
+
+---
+
 ## Script reference
 
 ### A. Current startup entrypoint — AutoLayer
 
 **Path:** RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py
-**Version:** 1.3.3
+**Version:** 1.3.4
 
 **Purpose**
 
-Acts as the single Rhino startup entrypoint for this package. It loads and executes the installer from the user's runtime folder, then separately requests the RhinoAI MCP startup command.
+Acts as the single Rhino startup entrypoint. Rhino 9 loads the drafting-standards installer and starts/verifies MCP on port 10500; Rhino 8 skips the Rhino 9-only installer and starts/verifies MCP on port 10508.
 
 **What it does**
 
 1. Resolves the runtime installer at Documents/Inventaur/Rhino Standards/Inventaur_RhinoStandards_Install.py.
 2. Loads and executes the installer so layers, styles, hatches, template validation and event handlers are applied.
 3. Writes bootstrap success or error details to the startup log.
-4. Invokes Rhino's _MCPStart command as a separate step. This is intended for installations where the RhinoAI MCP command is present and loaded; an unavailable command is logged rather than being confused with installer success.
+4. Starts or verifies the version-specific RhinoAI MCP listener using an explicit port and a final Enter separator; already-running listeners are not restarted.
 
 **Run it**
 
@@ -217,7 +236,7 @@ Component notes: [AutoLayer README](RhinoStandards/AutoLayer/README.md).
 ### B. Core standards engine — Installer
 
 **Path:** RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
-**Version:** 1.3.3
+**Version:** 1.3.4
 
 **Purpose**
 
@@ -317,7 +336,7 @@ Preserved as historical reference for the earlier AutoLayer implementation.
 
 **Use**
 
-Reference only. Do not configure this file as a startup command when using version 1.3.3. Running both routers can create overlapping event handlers and confusing behaviour.
+Reference only. Do not configure this file as a startup command when using version 1.3.4. Running both routers can create overlapping event handlers and confusing behaviour.
 
 Component notes: [Legacy README](RhinoStandards/Legacy/README.md).
 
@@ -376,7 +395,7 @@ Logs are written under %LOCALAPPDATA%\Inventaur\RhinoStandards\logs. Generated t
 
 ## Verification status
 
-The locally maintained 1.3.2 package was previously headless-tested against Rhino 9 with 44 layers, 14 styles, 59 hatch definitions and zero geometry objects. The 1.3.3 public package changes the PAT input to optional native-default fallback, generates the template locally and includes the hatch exporter. Static syntax, package-file and manifest checks passed for the public release. A fresh cold-start/UI acceptance test of public 1.3.3 remains an operator check on the recipient's Rhino workstation. See [VERIFICATION.md](VERIFICATION.md).
+The locally maintained 1.3.2 package was previously headless-tested against Rhino 9 with 44 layers, 14 styles, 59 hatch definitions and zero geometry objects. The 1.3.4 public package changes the PAT input to optional native-default fallback, generates the template locally and includes the hatch exporter. Static syntax, package-file and manifest checks passed for the public release. A fresh cold-start/UI acceptance test of public 1.3.4 remains an operator check on the recipient's Rhino workstation. See [VERIFICATION.md](VERIFICATION.md).
 
 ## Repository structure
 

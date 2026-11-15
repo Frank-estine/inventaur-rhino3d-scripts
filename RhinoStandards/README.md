@@ -47,3 +47,12 @@ Each component has its own README. The public source package does not include ge
 - Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Template/README.md
 
 ---
+
+## Rhino 8 / Rhino 9 MCP startup
+
+The shared AutoLayer entrypoint uses explicit non-interactive port arguments:
+
+- Rhino 8: MCP only on 127.0.0.1:10508; the Rhino 9 standards installer is skipped.
+- Rhino 9: applies the drafting standards and starts MCP on 127.0.0.1:10500.
+
+The two ports are distinct so Rhino 8 and Rhino 9 can be open at the same time. See [AutoLayer README](AutoLayer/README.md) for the command, startup configuration and log markers.

@@ -13,7 +13,7 @@ from System.Drawing import Color
 from Rhino.DocObjects import ObjectType, DimensionStyle, HatchPattern, Font
 from Rhino.Geometry import TextEntity, TextDot
 
-VERSION = '1.3.3'
+VERSION = '1.3.4'
 STICKY_KEY = 'INVENTAUR_RHINO_STANDARDS_V1'
 BASE_DIR = os.path.join(os.path.expanduser('~'), 'Documents', 'Inventaur', 'Rhino Standards')
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'Inventaur_Architecture_MM.3dm')
