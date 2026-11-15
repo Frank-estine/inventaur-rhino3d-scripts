@@ -12,39 +12,39 @@ Each component has its own README. The public source package does not include ge
 
 ## Direct GitHub links
 
-- Main repository: https://github.com/Frank-estine/inventaur-rhino3d-scripts
-- Main README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/README.md
-- Rhino standards package folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards
-- Package README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/README.md
+- Main repository: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts
+- Main README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/README.md
+- Rhino standards package folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards
+- Package README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/README.md
 
 ### AutoLayer
-- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/AutoLayer
-- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/README.md
-- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/AutoLayer/README.md
-- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py
+- Folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/AutoLayer
+- README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/README.md
+- Raw README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/AutoLayer/README.md
+- Script: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py
 
 ### Installer
-- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Installer
-- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/README.md
-- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/README.md
-- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
+- Folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Installer
+- README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/README.md
+- Raw README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/Installer/README.md
+- Script: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py
 
 ### HatchLibrary
-- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/HatchLibrary
-- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/README.md
-- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/README.md
-- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
+- Folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/HatchLibrary
+- README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/README.md
+- Raw README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/README.md
+- Script: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
 
 ### Legacy
-- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Legacy
-- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/README.md
-- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Legacy/README.md
-- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py
+- Folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Legacy
+- README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/README.md
+- Raw README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/Legacy/README.md
+- Script: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py
 
 ### Template
-- Folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Template
-- README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Template/README.md
-- Raw README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/Template/README.md
+- Folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/Template
+- README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/Template/README.md
+- Raw README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/Template/README.md
 
 ---
 

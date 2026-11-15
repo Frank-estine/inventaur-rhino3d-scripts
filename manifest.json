@@ -18,8 +18,8 @@
       "sha256": "0d722430569393ba36d75d25dd622de964551509f6e105e68fd2baee2f6ee79c"
     },
     "README.md": {
-      "size_bytes": 24377,
-      "sha256": "ff464c1be874b1464df876fa37bf723f9e792f776c5479a152f842c2435400d3"
+      "size_bytes": 24105,
+      "sha256": "7b81c160fe4d4c46208ef9f553364e08f47564d3db72143ae51dce959ce040b2"
     },
     "RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py": {
       "size_bytes": 3658,
@@ -34,32 +34,32 @@
       "sha256": "dfdde14175de3a5d79fb15e9fd3a102db58beb4261657d1ca117bc526f1c4597"
     },
     "RhinoStandards/HatchLibrary/README.md": {
-      "size_bytes": 1856,
-      "sha256": "3d10ae0a235095a4d8002aab13023aa7c3a5c069694e0947fdb6b585f7ac1645"
+      "size_bytes": 1874,
+      "sha256": "8140ef28ae9089d624119cd929881dfbe67eafe885f14fe29f822cedcf60bf56"
     },
     "RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py": {
       "size_bytes": 21073,
       "sha256": "9b5b32cc4e35aa5d310cfd1e6f91fb59d13cb0fc6a0e94ad1f08e552c962f047"
     },
     "RhinoStandards/Installer/README.md": {
-      "size_bytes": 2428,
-      "sha256": "88d2f0a24b57ac83bd0934ef2ea5906db727ea2720a5f080ae34558f1ccf52ca"
+      "size_bytes": 2433,
+      "sha256": "7e4e889c294bd0fbcf2fc9bbc8cc48dc14540aa6dc84c06a89a3bc36dece09ef"
     },
     "RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py": {
       "size_bytes": 8550,
       "sha256": "c1700e56acaf0d5326cd83e64dd0040040ac9ce882ba2a8a575c883a944fefb7"
     },
     "RhinoStandards/Legacy/README.md": {
-      "size_bytes": 1351,
-      "sha256": "75fb3d0fa718de66ceffde83a9caf1270681f13fed0190341c1b4d5d6e5731f7"
+      "size_bytes": 1375,
+      "sha256": "d51f1e6e3db6b0af1724609c6b1cf33f57f7fe158efd5d6a92af3c82f9facf30"
     },
     "RhinoStandards/README.md": {
-      "size_bytes": 3996,
-      "sha256": "6f167b6651724cd7faeae0a6e2ef7b5246e580aaa1e4ebdad6b50a63d11f4a83"
+      "size_bytes": 4053,
+      "sha256": "f74245028b1a8cd794bec500d87ec57d3a29421a7fe4478b186a9d54e6d591f6"
     },
     "RhinoStandards/Template/README.md": {
-      "size_bytes": 1781,
-      "sha256": "4b489f6da5cbffbd07fb1151e4037a61adebbcba7c6d6476533ac2ed8af94805"
+      "size_bytes": 1788,
+      "sha256": "60d9c1937d48b42bdf1c842ad5e0cfac9cba0f8518323654aba1ea59050710d4"
     },
     "THIRD_PARTY_NOTICES.md": {
       "size_bytes": 995,

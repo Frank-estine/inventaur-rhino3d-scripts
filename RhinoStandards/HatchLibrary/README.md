@@ -10,13 +10,13 @@ McNeel's free-to-use hatch file is documented at https://wiki.mcneel.com/rhino/h
 
 ## Direct GitHub links
 
-- Main repository: https://github.com/Frank-estine/inventaur-rhino3d-scripts
-- Main README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/README.md
-- Rhino standards package: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards
-- HatchLibrary folder: https://github.com/Frank-estine/inventaur-rhino3d-scripts/tree/main/RhinoStandards/HatchLibrary
-- HatchLibrary README: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/README.md
-- Raw HatchLibrary README: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/README.md
-- Script: https://github.com/Frank-estine/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
-- Raw script: https://raw.githubusercontent.com/Frank-estine/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
+- Main repository: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts
+- Main README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/README.md
+- Rhino standards package: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards
+- HatchLibrary folder: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/tree/main/RhinoStandards/HatchLibrary
+- HatchLibrary README: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/README.md
+- Raw HatchLibrary README: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/README.md
+- Script: https://github.com/Krishna-Inventaur/inventaur-rhino3d-scripts/blob/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
+- Raw script: https://raw.githubusercontent.com/Krishna-Inventaur/inventaur-rhino3d-scripts/main/RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py
 
 Use the **folder URL** to introduce the component, the **README URL** to reference its documentation, and the **raw README URL** when a forum or external page needs the Markdown source.
