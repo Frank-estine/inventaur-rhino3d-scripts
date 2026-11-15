@@ -1,0 +1,11 @@
+# Locally generated Rhino content
+*.3dm
+*.3dmbak
+*.pat
+*.log
+*.bak
+*.tmp
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

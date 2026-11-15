@@ -1,0 +1,73 @@
+{
+  "name": "Inventaur Rhino3D Scripts",
+  "version": "1.3.3",
+  "license": "Proprietary Commercial License",
+  "license_file": "LICENSE.md",
+  "third_party_policy": "No McNeel PAT data, Rhino SDK binaries or prebuilt 3DM template redistributed.",
+  "requires": [
+    "Windows",
+    "Rhino 9"
+  ],
+  "files": {
+    ".gitignore": {
+      "size_bytes": 116,
+      "sha256": "262efb1a7d14fd54cca73b555e4eb0cbbbd37f37eb883e5d8898254d833907ae"
+    },
+    "LICENSE.md": {
+      "size_bytes": 2203,
+      "sha256": "0d722430569393ba36d75d25dd622de964551509f6e105e68fd2baee2f6ee79c"
+    },
+    "README.md": {
+      "size_bytes": 2874,
+      "sha256": "6d7465efe36a50b7711406f796a2259abaacf77789c9db3e6462879dd165b8ab"
+    },
+    "RhinoStandards/AutoLayer/Inventaur_RhinoAutoLayer.py": {
+      "size_bytes": 1913,
+      "sha256": "9d63c44a0b3653107466bb95ba73f71627069b646bcfe0849fb074fcc1d39c4f"
+    },
+    "RhinoStandards/AutoLayer/README.md": {
+      "size_bytes": 958,
+      "sha256": "a5f9284a3d919d0c2c5a899c71f45906550e079eff9018fb838c471533a4e607"
+    },
+    "RhinoStandards/HatchLibrary/Inventaur_ExportRhinoDefaultHatches.py": {
+      "size_bytes": 2148,
+      "sha256": "dfdde14175de3a5d79fb15e9fd3a102db58beb4261657d1ca117bc526f1c4597"
+    },
+    "RhinoStandards/HatchLibrary/README.md": {
+      "size_bytes": 647,
+      "sha256": "a2ba21e26b0d0d85c9f67ef4f973566bbe9eeebe2664363e2f8027ec7842378b"
+    },
+    "RhinoStandards/Installer/Inventaur_RhinoStandards_Install.py": {
+      "size_bytes": 20601,
+      "sha256": "f259a4ad5923adeb45783865c387eefc6a1f223611ac57da0b261be666bfd0e4"
+    },
+    "RhinoStandards/Installer/README.md": {
+      "size_bytes": 1236,
+      "sha256": "2c6baf8bbe43edf00e272a5cb72753a1898773e4cd0a0ab664471ed9bf158258"
+    },
+    "RhinoStandards/Legacy/Inventaur_RhinoAutoLayer_legacy_1_0.py": {
+      "size_bytes": 8550,
+      "sha256": "c1700e56acaf0d5326cd83e64dd0040040ac9ce882ba2a8a575c883a944fefb7"
+    },
+    "RhinoStandards/Legacy/README.md": {
+      "size_bytes": 196,
+      "sha256": "46ab6ddf6769741e5588550e360dcac21d586b64df2403ab67f11f21b26a7cf6"
+    },
+    "RhinoStandards/README.md": {
+      "size_bytes": 714,
+      "sha256": "6356756dff1bb1aa31a3e1408310ca544c0307b8729f19ba11a9c1428451a06d"
+    },
+    "RhinoStandards/Template/README.md": {
+      "size_bytes": 678,
+      "sha256": "39e1b2e4c7545c5a71e8aab0bf7e14029ef2b5497024d5fec5e702dbbebacf55"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "size_bytes": 995,
+      "sha256": "12909665845a23a346e55538fce055a25d21e4e296f0eed00bffdb36e606e99a"
+    },
+    "VERIFICATION.md": {
+      "size_bytes": 985,
+      "sha256": "277b237ea4933b3cdad8001256d23f69345a7541df5fe96d832aa121c7a993ba"
+    }
+  }
+}
